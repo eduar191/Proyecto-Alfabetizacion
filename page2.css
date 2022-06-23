@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+nav{
+    border: 2px solid black;
+    background-color: rgb(211, 54, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 10px 10px;
+    margin: 2px 5px 2px 5px;
+    font-weight: bolder;
+    height: 100px;
+}
+#inea > img {
+    height: 70px;
+    padding: 10px;
+}
+#tit{
+    padding: 10px;
+}
+#blog{
+    color: cornsilk;
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+#but{
+    display: flex;
+    gap: 30px;
+    color: rgb(0, 0, 0);
+}
+#but > #home{
+    font-size: 20px;
+    padding: 25px;
+}
+#but >#products{
+    font-size: 20px;
+    padding: 25px;
+}
+h1{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    background-color: coral;
+    color: cornsilk;
+    font-weight: 900;
+}
+#ind{
+    display:grid;
+    grid-template-columns: 30% 70%;
+
+}
+#ind > img {
+    height: 30px;
+}
+p{
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+div{
+    padding: 10px;
+    text-align: center;
+}
+#contact {
+    border: 30px rgb(238, 173, 77);
+    border-radius: 30px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color:rgb(119, 233, 195);
+    color: rgb(12, 12, 12);
+    justify-content: center;
+    text-align: center;
+}
